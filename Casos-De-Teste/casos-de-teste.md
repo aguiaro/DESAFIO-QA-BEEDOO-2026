@@ -147,3 +147,67 @@ Dado que o usuário solicita a exclusão de um curso<br>
 Quando o sistema solicita confirmação<br>
 E o usuário cancela a exclusão<br>
 Então o curso deve permanecer na lista<br>
+
+Cenário: CT25 - Excluir o último curso da lista
+Dado que existe apenas um curso cadastrado no sistema
+E o usuário está na tela de listagem de cursos
+Quando o usuário solicita a exclusão do curso
+E confirma a exclusão
+Então o curso deve ser removido da lista
+E o sistema deve exibir uma mensagem indicando que não há cursos cadastrados
+
+Cenário: CT26 - Alternar entre as telas "Cadastrar Curso" e "Listar Cursos"
+Dado que o usuário está utilizando a aplicação
+Quando ele navega entre as opções "Cadastrar Curso" e "Listar Cursos"
+Então a navegação entre as telas deve ocorrer corretamente
+
+Cenário: CT27 - Atualizar página na tela de cadastro de curso
+Dado que o usuário está na tela de cadastro de cursos
+Quando ele atualiza a página do navegador
+Então o formulário de cadastro deve continuar visível e funcional
+
+Cenário: CT28 - Atualizar página na tela de listar cursos
+Dado que existem cursos cadastrados no sistema
+E o usuário está na tela de listagem de cursos
+Quando ele atualiza a página do navegador
+Então os cursos cadastrados devem continuar sendo exibidos
+
+Cenário: CT29 - Verificar alinhamento dos campos do formulário
+Dado que o usuário está na tela de cadastro de cursos
+Quando o formulário é exibido
+Então os campos do formulário devem estar alinhados corretamente
+
+Cenário: CT30 - Verificar alinhamento da lista de cursos
+Dado que o usuário acessa a tela de listagem de cursos
+Quando os cursos são exibidos
+Então as colunas da lista devem estar organizadas e alinhadas
+
+Cenário: CT31 - Verificar espaçamento entre os campos do formulário
+Dado que o usuário está na tela de cadastro de cursos
+Quando o formulário é exibido
+Então o espaçamento entre os campos deve ser consistente
+
+Cenário: CT32 - Verificar cor do botão de cadastro
+Dado que o usuário está na tela de cadastro de cursos
+Quando o botão de cadastro é exibido
+Então o botão deve possuir uma cor que indique a ação principal de confirmação do cadastro
+
+Cenário: CT33 - Verificar botão de exclusão
+Dado que o usuário acessa a tela de listagem de cursos
+Quando a opção de excluir curso é exibida
+Então o botão deve indicar visualmente a ação de exclusão
+
+Cenário: CT34 - Verificar estado hover dos botões
+Dado que o usuário visualiza os botões da aplicação
+Quando ele posiciona o cursor do mouse sobre um botão
+Então o botão deve apresentar um feedback visual indicando o estado hover
+
+Cenário: CT35 - Exibir mensagem de erro clara
+Dado que o usuário tenta realizar uma ação inválida
+Quando o sistema apresenta uma mensagem de erro
+Então a mensagem deve ser clara, compreensível e visível ao usuário
+
+Cenário: CT36 - Abrir a aplicação em outra aba
+Dado que existem cursos cadastrados no sistema
+Quando o usuário abre a aplicação em outra aba do navegador
+Então os dados exibidos devem permanecer consistentes com os cursos cadastrados
