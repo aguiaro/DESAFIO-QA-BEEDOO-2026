@@ -156,7 +156,7 @@ E confirma a exclusão<br>
 Então o curso deve ser removido da lista<br>
 E o sistema deve exibir uma mensagem indicando que não há cursos cadastrados<br>
 
-## Navegação
+## Navegação e UI
 Cenário: CT26 - Alternar entre as telas "Cadastrar Curso" e "Listar Cursos"<br>
 Dado que o usuário está utilizando a aplicação<br>
 Quando ele navega entre as opções "Cadastrar Curso" e "Listar Cursos"<br>
