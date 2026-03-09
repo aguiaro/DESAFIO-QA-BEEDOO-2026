@@ -136,7 +136,13 @@ Quando o sistema solicita confirmação<br>
 E o usuário confirma a exclusão<br>
 Então o curso deve ser removido do sistema<br>
 
-Cenário: CT23 - Cancelar exclusão de curso<br>
+Cenário: CT23 - Validar mensagem de sucesso após exclusão<br>
+Dado que o usuário está na tela listar cursos<br>
+Quando ele seleciona a opção de excluir o curso<br>
+E confirma a exclusão<br>
+Então o sistema deve exibir uma mensagem de sucesso informando que o curso foi excluído<br>
+
+Cenário: CT24 - Cancelar exclusão de curso<br>
 Dado que o usuário solicita a exclusão de um curso<br>
 Quando o sistema solicita confirmação<br>
 E o usuário cancela a exclusão<br>
