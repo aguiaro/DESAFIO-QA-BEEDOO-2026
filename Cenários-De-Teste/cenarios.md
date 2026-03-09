@@ -103,12 +103,62 @@ ID: CT22<br>
 Cenário: Confirmar exclusão<br>
 Resultado esperado: O sistema deve confirmar a decisão de exclusão<br>
 
-### Fluxo Alternativo
 ID: CT23<br>
+Cenário: Validar mensagem de sucesso após exclusão<br>
+Resultado esperado: O sitema deve apresentar uma mensagem indicando o sucesso de exclusão do curso<br>
+
+### Fluxo Alternativo
+ID: CT24<br>
 Cenário: Cancelar exclusão<br>
 Resultado esperado: O curso deve permanecer na lista<br>
 
 ### Outros Casos
-ID: CT24<br>
+ID: CT25<br>
 Cenário: Excluir último curso da lista<br>
 Resultado esperado: O sistema deve apresentar algo indicando ausência de cursos cadastrados<br>
+
+## Navegação entre Telas
+ID: CT26<br>
+Cenário: Alternar entre as telas "Cadastrar Curso" e "Listar Cursos"<br>
+Resultado esperado: A navegação deve funcionar corretamente<br>
+
+ID: CT27<br>
+Cenário: Atualizar página na tela de cadastro de curso<br>
+Resultado esperado: O formulário deve continuar totalmente funcional<br>
+
+ID: CT28<br>
+Cenário: Atualizar página na tela de listar cursos<br>
+Resultado esperado: Os cursos cadastrados devem continuar sendo exibidos<br>
+
+## Teste de UI
+ID: CT29<br>
+Cenário: Alinhamento de campos do formulário<br>
+Resultado esperado: Os campos devem estar alinhados<br>
+
+ID: CT30<br>
+Cenário: Alinhamento da lista<br>
+Resultado esperado: As colunas que apresentam os cursos devem estar organizadas<br>
+
+ID: CT31<br>
+Cenário: Espaçamento entre campos<br>
+Resultado esperado: O espaçamento entre os campos deve ser consistente<br>
+
+ID: CT32<br>
+Cenário: Cor do botão de cadastro<br>
+Resultado esperado: O botão deve indicar a ação principal de confirmação cadastro<br>
+
+ID: CT33<br>
+Cenário: Botão de exclusão<br>
+Resultado esperado: O botão deve indicar a ação de exclusão<br>
+
+ID: CT34<br>
+Cenário: Estado hover dos botões<br>
+Resultado esperado: Os botões devem ter um retorno visual ao passar o mouse<br>
+
+ID: CT35<br>
+Cenário: Mensagem de erro<br>
+Resultado esperado: A mensagem deve ser clara e bem visível<br>
+
+ID: CT36<br>
+Cenário: Abrir página em outra aba<br>
+Resultado esperado: Os dados devem permanecer consistentes<br>
