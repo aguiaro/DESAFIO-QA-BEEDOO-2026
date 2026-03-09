@@ -1,3 +1,3 @@
-# Cenários de Teste
+# Evidências
 
-Documentação dos cenários de teste do desafio QA.
+Documentação de evidências dos testes do desafio.
