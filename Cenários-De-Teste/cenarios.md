@@ -4,111 +4,111 @@ Documentação dos cenários de teste do desafio.
 
 ## Cadastro de Cursos
 ### Fluxo Principal
-ID: CT01
-Cenário: Cadastrar curso com dados válidos
-Resultado esperado: O curso deve ser cadastrado com sucesso
+ID: CT01<br>
+Cenário: Cadastrar curso com dados válidos<br>
+Resultado esperado: O curso deve ser cadastrado com sucesso<br>
 
-ID: CT02
-Cenário: Validar mensagem de sucesso após cadastro
-Resultado esperado: O sitema deve apresentar uma mensagem indicando o sucesso do cadastro
+ID: CT02<br>
+Cenário: Validar mensagem de sucesso após cadastro<br>
+Resultado esperado: O sitema deve apresentar uma mensagem indicando o sucesso do cadastro<br>
 
-ID: CT03
-Cenário: Verificar curso cadastrado
-Resultado esperado: O curso deve aparecer na lista
+ID: CT03<br>
+Cenário: Verificar curso cadastrado<br>
+Resultado esperado: O curso deve aparecer na lista<br>
 
 ### Validação de Campos
-ID: CT04
-Cenário: Campos vazios
-Resultado esperado: O sistema deve exibir um erro de validação
+ID: CT04<br>
+Cenário: Campos vazios<br>
+Resultado esperado: O sistema deve exibir um erro de validação<br>
 
-ID: CT05
-Cenário: Campos preenchidos com espaços
-Resultado esperado: O sistema deve impedir o cadastro
+ID: CT05<br>
+Cenário: Campos preenchidos com espaços<br>
+Resultado esperado: O sistema deve impedir o cadastro<br>
 
-ID: CT06
-Cenário: Campos preenchidos com tamanho mínimo
-Resultado esperado: Se dentro de uma regra, o sistema deve aceitar o cadastro
+ID: CT06<br>
+Cenário: Campos preenchidos com tamanho mínimo<br>
+Resultado esperado: Se dentro de uma regra, o sistema deve aceitar o cadastro<br>
 
-ID: CT07
-Cenário: Campos preenchidos com tamanho máximo
-Resultado esperado: Se dentro de uma regra, o sistema deve impedir ou limitar a entrada de caracteres
+ID: CT07<br>
+Cenário: Campos preenchidos com tamanho máximo<br>
+Resultado esperado: Se dentro de uma regra, o sistema deve impedir ou limitar a entrada de caracteres<br>
 
 ### Teste de Integridade
-ID: CT08
-Cenário: Cadastro duplicado de curso
-Resultado esperado: O sistema deve tratar conforme a regra definida para o projeto
+ID: CT08<br>
+Cenário: Cadastro duplicado de curso<br>
+Resultado esperado: O sistema deve tratar conforme a regra definida para o projeto<br>
 
-ID: CT09
-Cenário: Cadastro com caracteres especiais
-Resultado esperado: O sistema deve tratar conforme a regra definida para o projeto
+ID: CT09<br>
+Cenário: Cadastro com caracteres especiais<br>
+Resultado esperado: O sistema deve tratar conforme a regra definida para o projeto<br>
 
-ID: CT10
-Cenário: Cadastro de números em campos de nome
-Resultado esperado: O sistema deve tratar conforme a regra definida para o projeto
+ID: CT10<br>
+Cenário: Cadastro de números em campos de nome<br>
+Resultado esperado: O sistema deve tratar conforme a regra definida para o projeto<br>
 
 ### Outros Casos
-ID: CT11
-Cenário: Campos com espaços antes e/ou depois
-Resultado esperado: O sistema deve remover ou realizar validação
+ID: CT11<br>
+Cenário: Campos com espaços antes e/ou depois<br>
+Resultado esperado: O sistema deve remover ou realizar validação<br>
 
-ID: CT12
-Cenário: Caracteres com acentuação
-Resultado esperado: O sistema deve aceitar
+ID: CT12<br>
+Cenário: Caracteres com acentuação<br>
+Resultado esperado: O sistema deve aceitar<br>
 
-ID: CT13
-Cenário: Campos com emojis ou caracteres não comuns
-Resultado esperado: O sistena deve tratar conforme a regra definida para o projeto
+ID: CT13<br>
+Cenário: Campos com emojis ou caracteres não comuns<br>
+Resultado esperado: O sistena deve tratar conforme a regra definida para o projeto<br>
 
 
 ## Listagem de Cursos
 ### Fluxo Principal
-ID: CT14
-Cenário: Visualizar cursos
-Resultado esperado: Os cursos cadastrados devem ser visualizados
+ID: CT14<br>
+Cenário: Visualizar cursos<br>
+Resultado esperado: Os cursos cadastrados devem ser visualizados<br>
 
-ID: CT15
-Cenário: Atualização de lista após cadastro
-Resultado esperado: O novo curso deve ser apresentado na lista
+ID: CT15<br>
+Cenário: Atualização de lista após cadastro<br>
+Resultado esperado: O novo curso deve ser apresentado na lista<br>
 
 ### Comportamentos
-ID: CT16
-Cenário: Lista vazia
-Resultado esperado: O sistema deve apresentar algo indicando ausência de cursos cadastrados
+ID: CT16<br>
+Cenário: Lista vazia<br>
+Resultado esperado: O sistema deve apresentar algo indicando ausência de cursos cadastrados<br>
 
-ID: CT17
-Cenário: Quantidade de cursos
-Resultado esperado: A lista deve continuar crescendo ou ser separada em páginas
+ID: CT17<br>
+Cenário: Quantidade de cursos<br>
+Resultado esperado: A lista deve continuar crescendo ou ser separada em páginas<br>
 
-ID: CT18
-Cenário: Atualizar página
-Resultado esperado: Os cursos cadastrados devem continuar sendo apresentados, mantendo seus dados preservados
+ID: CT18<br>
+Cenário: Atualizar página<br>
+Resultado esperado: Os cursos cadastrados devem continuar sendo apresentados, mantendo seus dados preservados<br>
 
 ### Teste de Usabilidade
-ID: CT19
-Cenário: Verificar Informações
-Resultado esperado: As informações dos cursos listados devem ser claras
+ID: CT19<br>
+Cenário: Verificar Informações<br>
+Resultado esperado: As informações dos cursos listados devem ser claras<br>
 
-ID: CT20
-Cenário: Alinhamento e organização
-Resultado esperado: A interface deve seguir um padrão previamente definido
+ID: CT20<br>
+Cenário: Alinhamento e organização<br>
+Resultado esperado: A interface deve seguir um padrão previamente definido<br>
 
 
 ## Exclusão de Cursos
 ### Fluxo Principal
-ID: CT21
-Cenário: Excluir curso existente
-Resultado esperado: O curso deve ser removido da lista
+ID: CT21<br>
+Cenário: Excluir curso existente<br>
+Resultado esperado: O curso deve ser removido da lista<br>
 
-ID: CT22
-Cenário: Confirmar exclusão
-Resultado esperado: O sistema deve confirmar a decisão de exclusão
+ID: CT22<br>
+Cenário: Confirmar exclusão<br>
+Resultado esperado: O sistema deve confirmar a decisão de exclusão<br>
 
 ### Fluxo Alternativo
-ID: CT23
-Cenário: Cancelar exclusão
-Resultado esperado: O curso deve permanecer na lista
+ID: CT23<br>
+Cenário: Cancelar exclusão<br>
+Resultado esperado: O curso deve permanecer na lista<br>
 
 ### Outros Casos
-ID: CT24
-Cenário: Excluir último curso da lista
-Resultado esperado: O sistema deve apresentar algo indicando ausência de cursos cadastrados
+ID: CT24<br>
+Cenário: Excluir último curso da lista<br>
+Resultado esperado: O sistema deve apresentar algo indicando ausência de cursos cadastrados<br>
