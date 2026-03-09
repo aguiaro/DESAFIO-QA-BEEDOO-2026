@@ -59,6 +59,7 @@ ID: CT13
 Cenário: Campos com emojis ou caracteres não comuns
 Resultado esperado: O sistena deve tratar conforme a regra definida para o projeto
 
+
 ## Listagem de Cursos
 ### Fluxo Principal
 ID: CT14
@@ -90,6 +91,7 @@ Resultado esperado: As informações dos cursos listados devem ser claras
 ID: CT20
 Cenário: Alinhamento e organização
 Resultado esperado: A interface deve seguir um padrão previamente definido
+
 
 ## Exclusão de Cursos
 ### Fluxo Principal
