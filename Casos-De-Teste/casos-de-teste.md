@@ -167,48 +167,42 @@ Dado que o usuário está na tela de cadastro de cursos<br>
 Quando ele atualiza a página do navegador<br>
 Então o formulário de cadastro deve continuar visível e funcional<br>
 
-Cenário: CT28 - Atualizar página na tela de listar cursos<br>
-Dado que existem cursos cadastrados no sistema<br>
-E o usuário está na tela de listagem de cursos<br>
-Quando ele atualiza a página do navegador<br>
-Então os cursos cadastrados devem continuar sendo exibidos<br>
-
-Cenário: CT29 - Verificar alinhamento dos campos do formulário<br>
+Cenário: CT28 - Verificar alinhamento dos campos do formulário<br>
 Dado que o usuário está na tela de cadastro de cursos<br>
 Quando o formulário é exibido<br>
 Então os campos do formulário devem estar alinhados corretamente<br>
 
-Cenário: CT30 - Verificar alinhamento da lista de cursos<br>
+Cenário: CT29 - Verificar alinhamento da lista de cursos<br>
 Dado que o usuário acessa a tela de listagem de cursos<br>
 Quando os cursos são exibidos<br>
 Então as colunas da lista devem estar organizadas e alinhadas<br>
 
-Cenário: CT31 - Verificar espaçamento entre os campos do formulário<br>
+Cenário: CT30 - Verificar espaçamento entre os campos do formulário<br>
 Dado que o usuário está na tela de cadastro de cursos<br>
 Quando o formulário é exibido<br>
 Então o espaçamento entre os campos deve ser consistente<br>
 
-Cenário: CT32 - Verificar cor do botão de cadastro<br>
+Cenário: CT31 - Verificar cor do botão de cadastro<br>
 Dado que o usuário está na tela de cadastro de cursos<br>
 Quando o botão de cadastro é exibido<br>
 Então o botão deve possuir uma cor que indique a ação principal de confirmação do cadastro<br>
 
-Cenário: CT33 - Verificar botão de exclusão<br>
+Cenário: CT32 - Verificar botão de exclusão<br>
 Dado que o usuário acessa a tela de listagem de cursos<br>
 Quando a opção de excluir curso é exibida<br>
 Então o botão deve indicar visualmente a ação de exclusão<br>
 
-Cenário: CT34 - Verificar estado hover dos botões<br>
+Cenário: CT33 - Verificar estado hover dos botões<br>
 Dado que o usuário visualiza os botões da aplicação<br>
 Quando ele posiciona o cursor do mouse sobre um botão<br>
 Então o botão deve apresentar um feedback visual indicando o estado hover<br>
 
-Cenário: CT35 - Exibir mensagem de erro clara<br>
+Cenário: CT34 - Exibir mensagem de erro clara<br>
 Dado que o usuário tenta realizar uma ação inválida<br>
 Quando o sistema apresenta uma mensagem de erro<br>
 Então a mensagem deve ser clara, compreensível e visível ao usuário<br>
 
-Cenário: CT36 - Abrir a aplicação em outra aba<br>
+Cenário: CT35 - Abrir a aplicação em outra aba<br>
 Dado que existem cursos cadastrados no sistema<br>
 Quando o usuário abre a aplicação em outra aba do navegador<br>
 Então os dados exibidos devem permanecer consistentes com os cursos cadastrados<br>
