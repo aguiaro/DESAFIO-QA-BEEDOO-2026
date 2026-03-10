@@ -132,29 +132,25 @@ Cenário: Alinhamento de campos do formulário<br>
 Resultado esperado: Os campos devem estar alinhados<br>
 
 ID: CT29<br>
-Cenário: Alinhamento da lista<br>
-Resultado esperado: As colunas que apresentam os cursos devem estar organizadas<br>
-
-ID: CT30<br>
 Cenário: Espaçamento entre campos<br>
 Resultado esperado: O espaçamento entre os campos deve ser consistente<br>
 
-ID: CT31<br>
+ID: CT30<br>
 Cenário: Cor do botão de cadastro<br>
 Resultado esperado: O botão deve indicar a ação principal de confirmação cadastro<br>
 
-ID: CT32<br>
+ID: CT31<br>
 Cenário: Botão de exclusão<br>
 Resultado esperado: O botão deve indicar a ação de exclusão<br>
 
-ID: CT33<br>
+ID: CT32<br>
 Cenário: Estado hover dos botões<br>
 Resultado esperado: Os botões devem ter um retorno visual ao passar o mouse<br>
 
-ID: CT34<br>
+ID: CT33<br>
 Cenário: Mensagem de erro<br>
 Resultado esperado: A mensagem deve ser clara e bem visível<br>
 
-ID: CT35<br>
+ID: CT34<br>
 Cenário: Abrir página em outra aba<br>
 Resultado esperado: Os dados devem permanecer consistentes<br>
